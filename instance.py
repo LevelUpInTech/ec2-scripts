@@ -7,7 +7,7 @@ response = ec2.run_instances(
     InstanceType='t3.nano',
     MinCount=1,
     MaxCount=1,
-    SubnetId='subnet-0b465d667b85d6382'
+    SubnetId='your-subnet-id'
 )
 
 print(response)
